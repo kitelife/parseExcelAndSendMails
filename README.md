@@ -10,7 +10,7 @@ xlrd
 
 config.pyÎÄ¼şÖĞÓĞÈı¸öÑ¡Ïî£ºdebug, debugMail, adminMail¡£Ïà¹ØËµÃ÷Çë²Î¿¼config.pyÄÚµÄ×¢ÊÍ¡£
 
-## Ê¹ÓÃ
+## Excel¸ñÊ½
 Ê¹ÓÃÖ®Ç°ÇëÈ·±£ÄãÒª·¢ËÍµÄExcel·ûºÏÔ¤¶¨ÒåµÄ¸ñÊ½¡£
 
 1). "·¢·ÅËµÃ÷"µÄExcel¸ñÊ½ÈçÏÂ:
@@ -21,3 +21,11 @@ config.pyÎÄ¼şÖĞÓĞÈı¸öÑ¡Ïî£ºdebug, debugMail, adminMail¡£Ïà¹ØËµÃ÷Çë²Î¿¼config.pyÄ
 2). "¼ÄËÍÍ¨Öª"µÄExcel¸ñÊ½ÈçÏÂ:
 
 ĞÕÃû	ÔÂ	¿ªÊ¼ÈÕ	ÔÂ	½ØÖ¹ÈÕ	ÓĞĞ§Ìá½»µÖÏûºóÌõÊı	¹«Òæ»î¶¯ĞÅÏ¢	¹«Òæ×éÖ¯ĞÅÏ¢	ÕÅÊı	º¬¶îÍâ½±ÀøÕÅÊı	µãÊı£¨ÕÅÊı*50µã/ÕÅ£©	¼ÄËÍÔÂ	¼ÄËÍÈÕ	¼ÄËÍ·½Ê½	¼ÄËÍµ¥ºÅ	ÓÊÏä
+
+### Ê¹ÓÃ
+
+1.
+ÃüÁîĞĞ£º`python parseExcelAndEmailSender.py -f filename` »ò `python parseExcelAndEmailSender.py -j filename`¡£
+
+2.
+Í¼ĞÎ½çÃæ£º `python wxmailsender.py`
